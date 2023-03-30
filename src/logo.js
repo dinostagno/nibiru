@@ -12,7 +12,7 @@ const Logo = () => {
   return (
     <animated.div style={{ transform }}>
       {/* Aquí va el código HTML de tu logo */}
-      <img src="https://a.sfdcstatic.com/shared/images/c360-nav/mobile_logo.png" alt="Logo" />
+      <img src="https://cdn-icons-png.flaticon.com/512/5968/5968841.png" alt="Logo" />
     </animated.div>
   );
 };
