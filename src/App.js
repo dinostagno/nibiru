@@ -11,7 +11,7 @@ class App extends React.Component {
           <NavigationBar />
           <div className="container">
             <Routes>
-              <Route path="/" element={<Inicio />} />
+              <Route path="/nibiru/Inicio" element={<Inicio />} />
             </Routes>
           </div>
         </div>
