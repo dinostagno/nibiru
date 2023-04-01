@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 import Inicio from './Inicio';
+import Classic from './Classic';
+import Djent from './Djen';
 
 class App extends React.Component {
   render() {
@@ -9,11 +11,11 @@ class App extends React.Component {
       <Router>
         <div>
           <NavigationBar />
-          <div className="container">
             <Routes>
               <Route path="/nibiru/Inicio" element={<Inicio />} />
+              <Route path="/nibiru/Classic" element={<Classic />} />
+              <Route path="/nibiru/Djent" element={<Djent />} />
             </Routes>
-          </div>
         </div>
       </Router>
     );

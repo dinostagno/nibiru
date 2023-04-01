@@ -4,7 +4,13 @@ class Inicio extends React.Component {
   render() {
     return (
       <div>
-        <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/QIeCCqWSRnw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe 
+          title="YouTube video player"
+          className="embed-responsive-item"
+          src="https://www.youtube-nocookie.com/embed/QIeCCqWSRnw"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
         <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/g7PJlf543Ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/tM8LmzKca3k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/TB2piLyPNk8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
