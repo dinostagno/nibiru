@@ -23,7 +23,7 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/Inicio">Guitarrist</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Djent">Djent</Nav.Link>
-            <Nav.Link as={Link} to="/opcion3">pa Cabezear</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </div>
