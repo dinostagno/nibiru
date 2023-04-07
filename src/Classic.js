@@ -32,6 +32,13 @@ class Classic extends React.Component {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
+        <iframe 
+          title="YouTube video player"
+          className="embed-responsive-item"
+          src="https://www.youtube-nocookie.com/embed/Ak_MTXQALa0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowFullScreen
+        ></iframe>
       </div>
     );
   }
