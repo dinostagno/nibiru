@@ -6,6 +6,7 @@ import Classic from './Classic';
 import Djent from './Djen';
 import Live from './Live';
 import Random from './Random';
+import YoutubeApi from './YoutubeApi'
 
 class App extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class App extends React.Component {
               <Route path="/nibiru/Djent" element={<Djent />} />
               <Route path="/nibiru/Live" element={<Live />} />
               <Route path="/nibiru/Random" element={<Random />} />
+              <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
             </Routes>
         </div>
       </Router>
