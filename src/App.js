@@ -7,6 +7,7 @@ import Djent from './Djen';
 import Live from './Live';
 import Random from './Random';
 import YoutubeApi from './YoutubeApi'
+import Tu from './Tu'
 
 class App extends React.Component {
   render() {
@@ -16,6 +17,7 @@ class App extends React.Component {
           <NavigationBar />
             <Routes>
               <Route path="/nibiru/Inicio" element={<Inicio />} />
+              <Route path="/nibiru/Tu" element={<Tu />} />
               <Route path="/nibiru/Classic" element={<Classic />} />
               <Route path="/nibiru/Djent" element={<Djent />} />
               <Route path="/nibiru/Live" element={<Live />} />
