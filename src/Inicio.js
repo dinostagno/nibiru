@@ -2,8 +2,7 @@ import React from 'react';
 
 class Inicio extends React.Component {
   render() {
-    return (
-      <div className="d-flex justify-content-center">
+    return ( 
       <div class="embed-responsive embed-responsive-1by1">
         <iframe 
           title="YouTube video player"
@@ -138,7 +137,6 @@ class Inicio extends React.Component {
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
-      </div>
       </div>
     );
   }
