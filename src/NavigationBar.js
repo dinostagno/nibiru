@@ -21,12 +21,12 @@ class NavigationBar extends React.Component {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/nibiru/YoutubeApi">YoutubeApi</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Tu">Tu</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Inicio">Guitarrist</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Djent">Djent</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Random">Random</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </div>

@@ -14,3 +14,9 @@ code {
 .bg-dark {
   background-color: #308ce9;
 }
+.fixed-top {
+  /* position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; */
+}
