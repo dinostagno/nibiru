@@ -39,7 +39,7 @@ const YoutubeSearch = () => {
           style={{ fontSize: '16px', marginRight: '5px', marginBottom: '15px', flex: '1', outline: 'none', marginTop: '5px' }}
           className="form-control"
         />
-        <Button type="submit" style={{ fontSize: '16px', marginLeft: '5px' }} className="btn btn-primary">
+        <Button type="submit" style={{ fontSize: '10px', marginLeft: '5px' }} className="btn btn-outline-info">
           Buscar
         </Button>
       </Form>
