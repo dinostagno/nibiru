@@ -9,6 +9,7 @@ import Random from './Random';
 import YoutubeApi from './YoutubeApi'
 import Tu from './Tu'
 import Jazz from './components/Jazz';
+import PinkFloyd from './components/PinkFloyd';
 
 class App extends React.Component {
   render() {
@@ -25,6 +26,7 @@ class App extends React.Component {
               <Route path="/nibiru/Random" element={<Random />} />
               <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
               <Route path="/nibiru/Jazz" element={<Jazz />} />
+              <Route path="/nibiru/PinkFloyd" element={<PinkFloyd />} />
             </Routes>
         </div>
       </Router>

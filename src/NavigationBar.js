@@ -39,9 +39,11 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Random">Random</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Jazz">
               Jazz
+            </Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/PinkFloyd">
+              PinkFloyd
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
