@@ -4,9 +4,21 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './index.css';
 import Logo from './logo'
+import Jazz from './components/Jazz';
 {/* <Logo /> */}
 
 class NavigationBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      selectedSection: null,
+    };
+  }
+
+  handleNavClick = (section) => {
+    this.setState({ selectedSection: section });
+  };
+
   render() {
     return (
       <Navbar bg="dark" variant="dark" expand="lg">
@@ -27,6 +39,10 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Random">Random</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Jazz">
+              Jazz
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
         </div>
