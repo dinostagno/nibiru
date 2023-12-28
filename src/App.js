@@ -10,6 +10,7 @@ import YoutubeApi from './YoutubeApi'
 import Tu from './Tu'
 import Jazz from './components/Jazz';
 import PinkFloyd from './components/PinkFloyd';
+import FavoriteMetal from './components/FavoriteMetal';
 
 class App extends React.Component {
   render() {
@@ -27,6 +28,7 @@ class App extends React.Component {
               <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
               <Route path="/nibiru/Jazz" element={<Jazz />} />
               <Route path="/nibiru/PinkFloyd" element={<PinkFloyd />} />
+              <Route path="/nibiru/FavoriteMetal" element={<FavoriteMetal />} />
             </Routes>
         </div>
       </Router>

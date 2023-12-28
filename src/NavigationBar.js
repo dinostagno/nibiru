@@ -34,11 +34,14 @@ class NavigationBar extends React.Component {
           <Nav className="mr-auto">
             <Nav.Link as={Link} to="/nibiru/YoutubeApi">YoutubeApi</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Inicio">Guitarrist</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/FavoriteMetal">
+              FavoriteMetal
+            </Nav.Link>
+            {/* <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Djent">Djent</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link>
+            {/* <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Random">Random</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link>
+            {/* <Nav.Link as={Link} to="/nibiru/Tu">...</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Jazz">
               Jazz
             </Nav.Link>
