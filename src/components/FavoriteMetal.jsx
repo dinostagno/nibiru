@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
-const Jazz = () => {
+const FavoriteMetal = () => {
   const [loading, setLoading] = useState(true);
 
   const videos = [
@@ -50,4 +50,4 @@ const Jazz = () => {
   );
 };
 
-export default Jazz;
+export default FavoriteMetal;
