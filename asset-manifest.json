@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nibiru/static/css/main.04d25644.css",
-    "main.js": "/nibiru/static/js/main.4da49e55.js",
+    "main.js": "/nibiru/static/js/main.a5a8822b.js",
     "static/js/787.befd6b3c.chunk.js": "/nibiru/static/js/787.befd6b3c.chunk.js",
     "static/media/7000cc86-7b2e-4722-a5a8-d48e050f5442.svg": "/nibiru/static/media/7000cc86-7b2e-4722-a5a8-d48e050f5442.cfdf0c3686753a5c4818a68ba179b985.svg",
     "index.html": "/nibiru/index.html",
     "main.04d25644.css.map": "/nibiru/static/css/main.04d25644.css.map",
-    "main.4da49e55.js.map": "/nibiru/static/js/main.4da49e55.js.map",
+    "main.a5a8822b.js.map": "/nibiru/static/js/main.a5a8822b.js.map",
     "787.befd6b3c.chunk.js.map": "/nibiru/static/js/787.befd6b3c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.04d25644.css",
-    "static/js/main.4da49e55.js"
+    "static/js/main.a5a8822b.js"
   ]
 }
