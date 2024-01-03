@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
-import Inicio from './Inicio';
+// import Inicio from './Inicio';
 import Classic from './Classic';
 import Djent from './Djen';
 import Live from './Live';
@@ -11,6 +11,9 @@ import Tu from './Tu'
 import Jazz from './components/Jazz';
 import PinkFloyd from './components/PinkFloyd';
 import FavoriteMetal from './components/FavoriteMetal';
+import GradientNavigationBar from './components/GradientNavigationBar';
+import Guitarrist from './components/Guitarrist';
+import CodeBlock from './components/CodeBlock';
 
 class App extends React.Component {
   render() {
@@ -18,8 +21,10 @@ class App extends React.Component {
       <Router>
         <div>
           <NavigationBar />
+          <GradientNavigationBar />
             <Routes>
-              <Route path="/nibiru/Inicio" element={<Inicio />} />
+              {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}
+              <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />
               <Route path="/nibiru/Tu" element={<Tu />} />
               <Route path="/nibiru/Classic" element={<Classic />} />
               <Route path="/nibiru/Djent" element={<Djent />} />
@@ -29,6 +34,7 @@ class App extends React.Component {
               <Route path="/nibiru/Jazz" element={<Jazz />} />
               <Route path="/nibiru/PinkFloyd" element={<PinkFloyd />} />
               <Route path="/nibiru/FavoriteMetal" element={<FavoriteMetal />} />
+              <Route path="/nibiru/CodeBlock" element={<CodeBlock />} />
             </Routes>
         </div>
       </Router>
