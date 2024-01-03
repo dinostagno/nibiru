@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 // import Inicio from './Inicio';
 import Classic from './Classic';
-import Djent from './Djen';
+import Djen from './components/Djen';
 import Live from './Live';
 import Random from './Random';
 import YoutubeApi from './YoutubeApi'
@@ -27,7 +27,7 @@ class App extends React.Component {
               <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />
               <Route path="/nibiru/Tu" element={<Tu />} />
               <Route path="/nibiru/Classic" element={<Classic />} />
-              <Route path="/nibiru/Djent" element={<Djent />} />
+              <Route path="/nibiru/Djen" element={<Djen />} />
               <Route path="/nibiru/Live" element={<Live />} />
               <Route path="/nibiru/Random" element={<Random />} />
               <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
