@@ -15,14 +15,18 @@ import GradientNavigationBar from './components/GradientNavigationBar';
 import Guitarrist from './components/Guitarrist';
 import CodeBlock from './components/CodeBlock';
 import Ai from './components/Ai';
+import TopBanner from './components/TopBanner';
+import BottomBanner from './components/BottomBanner';
 
 class App extends React.Component {
   render() {
     return (
       <Router>
         <div>
+          <TopBanner />
           <NavigationBar />
-          <GradientNavigationBar />
+          <BottomBanner />
+          {/* <GradientNavigationBar /> */}
             <Routes>
               {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}
               <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />

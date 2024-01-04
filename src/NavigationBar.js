@@ -37,7 +37,10 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/YoutubeApi">YoutubeApi</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Guitarrist">Guitarrist</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/FavoriteMetal">
-              FavoriteMetal
+              Neoclassical Metal
+            </Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Ai">
+              愛
             </Nav.Link>
             {/* <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Djent">Djent</Nav.Link>
@@ -49,9 +52,6 @@ class NavigationBar extends React.Component {
             </Nav.Link>
             <Nav.Link as={Link} to="/nibiru/PinkFloyd">
               PinkFloyd
-            </Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Ai">
-              愛
             </Nav.Link>
             <Nav.Link as={Link} to="/nibiru/CodeBlock">
               CodeBlock
