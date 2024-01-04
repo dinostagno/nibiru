@@ -2,8 +2,12 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
+  const footerStyle = {
+    background: 'radial-gradient(circle, rgba(112,128,144,0.3) 0%, rgba(255,255,255,1) 90%)', // Gradiente de color de fondo plomo suave
+  };
+
   return (
-    <footer className="mt-auto py-3 bg-light">
+    <footer style={footerStyle} className="mt-auto py-3">
       <Container>
         <Row>
           <Col className="text-center">

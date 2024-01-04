@@ -4,6 +4,7 @@ import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
 const Ai = () => {
   const [loading, setLoading] = useState(true);
+  const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const videos = [
     '5eGbnVlRcRg', 
@@ -14,35 +15,14 @@ const Ai = () => {
     'fyMhvkC3A84', 
     'Cjp6RVrOOW0', 
     '93ASUImTedo', 
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
-    // 'lSLXS0bjSCs', // Video 2
-    // 'mWpmqoeQIiw', // Video 3
   ];
 
   const handleVideoReady = () => {
     setLoading(false);
+  };
+
+  const handleVideoEnd = () => {
+    setCurrentVideoIndex((currentVideoIndex + 1) % videos.length);
   };
 
   return (
@@ -53,18 +33,20 @@ const Ai = () => {
             <div style={{ width: '100%' }}>
               {loading && <Spinner animation="border" variant="primary" />}
               <YouTube
-                videoId={videoId}
-                className="embed-responsive-item" // Mantenemos el estilo original sin cambios
+                videoId={index === currentVideoIndex ? videoId : null}
+                className="embed-responsive-item"
                 containerClassName="embed-responsive embed-responsive-16by9"
                 opts={{
                   width: '100%',
                   playerVars: {
+                    autoplay: 1,
                     modestbranding: 1,
                     showinfo: 0,
                     controls: 1,
                   },
                 }}
                 onReady={handleVideoReady}
+                onEnd={handleVideoEnd}
               />
             </div>
           </Col>
