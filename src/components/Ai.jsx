@@ -7,7 +7,7 @@ const Ai = () => {
 
   const videos = [
     '5eGbnVlRcRg', 
-    't2xX0lS_06Y', 
+    'XPpTgCho5ZA', 
     'yKNxeF4KMsY', 
     'gnIZ7RMuLpU', 
     'w3viBe2Q0P8', 
