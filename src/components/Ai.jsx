@@ -2,13 +2,43 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
-const Djen = () => {
+const Ai = () => {
   const [loading, setLoading] = useState(true);
 
   const videos = [
-    'W_SifnDVlRE', // Video 1
-    'CYI-zw1afaA', // Video 2
-    'qcrjaHY6YuQ', // Video 3
+    '5eGbnVlRcRg', 
+    't2xX0lS_06Y', 
+    'yKNxeF4KMsY', 
+    'gnIZ7RMuLpU', 
+    'w3viBe2Q0P8', 
+    'fyMhvkC3A84', 
+    'Cjp6RVrOOW0', 
+    '93ASUImTedo', 
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
+    // 'lSLXS0bjSCs', // Video 2
+    // 'mWpmqoeQIiw', // Video 3
   ];
 
   const handleVideoReady = () => {
@@ -44,4 +74,4 @@ const Djen = () => {
   );
 };
 
-export default Djen;
+export default Ai;

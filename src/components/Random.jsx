@@ -2,18 +2,13 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
-const FavoriteMetal = () => {
+const Random = () => {
   const [loading, setLoading] = useState(true);
 
   const videos = [
-    'k3vfWnvetQU', 
-    'Tn58-Nl9NYw', 
-    'aHolTqDXipc', 
-    'N2l8KtdQ7Ek', 
-    'oupD5I_CG-s', 
-    'pv1kirNU8n4',
-    'rCQ4tUwNy4U', 
-    '1kcvj1BW9p8', 
+    'uDsJB_zUquo', // Video 1
+    'lSLXS0bjSCs', // Video 2
+    'mWpmqoeQIiw', // Video 3
   ];
 
   const handleVideoReady = () => {
@@ -49,4 +44,4 @@ const FavoriteMetal = () => {
   );
 };
 
-export default FavoriteMetal;
+export default Random;

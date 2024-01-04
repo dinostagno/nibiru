@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import NavigationBar from './NavigationBar';
 // import Inicio from './Inicio';
 import Classic from './Classic';
-import Djen from './components/Djen';
+import Djent from './components/Djent';
 import Live from './Live';
-import Random from './Random';
+import Random from './components/Random';
 import YoutubeApi from './YoutubeApi'
 import Tu from './Tu'
 import Jazz from './components/Jazz';
@@ -14,6 +14,7 @@ import FavoriteMetal from './components/FavoriteMetal';
 import GradientNavigationBar from './components/GradientNavigationBar';
 import Guitarrist from './components/Guitarrist';
 import CodeBlock from './components/CodeBlock';
+import Ai from './components/Ai';
 
 class App extends React.Component {
   render() {
@@ -27,7 +28,7 @@ class App extends React.Component {
               <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />
               <Route path="/nibiru/Tu" element={<Tu />} />
               <Route path="/nibiru/Classic" element={<Classic />} />
-              <Route path="/nibiru/Djen" element={<Djen />} />
+              <Route path="/nibiru/Djent" element={<Djent />} />
               <Route path="/nibiru/Live" element={<Live />} />
               <Route path="/nibiru/Random" element={<Random />} />
               <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
@@ -35,6 +36,7 @@ class App extends React.Component {
               <Route path="/nibiru/PinkFloyd" element={<PinkFloyd />} />
               <Route path="/nibiru/FavoriteMetal" element={<FavoriteMetal />} />
               <Route path="/nibiru/CodeBlock" element={<CodeBlock />} />
+              <Route path="/nibiru/Ai" element={<Ai />} />
             </Routes>
         </div>
       </Router>

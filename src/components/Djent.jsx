@@ -2,18 +2,13 @@ import React, { useState } from 'react';
 import YouTube from 'react-youtube';
 import { Container, Row, Col, Spinner } from 'react-bootstrap';
 
-const FavoriteMetal = () => {
+const Djent = () => {
   const [loading, setLoading] = useState(true);
 
   const videos = [
-    'k3vfWnvetQU', 
-    'Tn58-Nl9NYw', 
-    'aHolTqDXipc', 
-    'N2l8KtdQ7Ek', 
-    'oupD5I_CG-s', 
-    'pv1kirNU8n4',
-    'rCQ4tUwNy4U', 
-    '1kcvj1BW9p8', 
+    'W_SifnDVlRE', // Video 1
+    'CYI-zw1afaA', // Video 2
+    'qcrjaHY6YuQ', // Video 3
   ];
 
   const handleVideoReady = () => {
@@ -49,4 +44,4 @@ const FavoriteMetal = () => {
   );
 };
 
-export default FavoriteMetal;
+export default Djent;
