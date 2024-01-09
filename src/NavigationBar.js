@@ -39,9 +39,9 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/FavoriteMetal">
               Neoclassical Metal
             </Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Ai">
+            {/* <Nav.Link as={Link} to="/nibiru/Ai">
               愛
-            </Nav.Link>
+            </Nav.Link> */}
             {/* <Nav.Link as={Link} to="/nibiru/Classic">Classic</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Djent">Djent</Nav.Link>
             {/* <Nav.Link as={Link} to="/nibiru/Live">Live</Nav.Link> */}
@@ -53,9 +53,9 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/PinkFloyd">
               PinkFloyd
             </Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/CodeBlock">
+            {/* <Nav.Link as={Link} to="/nibiru/CodeBlock">
               CodeBlock
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
         </div>

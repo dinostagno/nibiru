@@ -6,7 +6,8 @@ const Ai = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
 
   const videos = [
-    '5eGbnVlRcRg', 
+    // '5eGbnVlRcRg', 
+    // '5eGbnVlRcRg', 
     'XPpTgCho5ZA', 
     'yKNxeF4KMsY', 
     'gnIZ7RMuLpU', 
@@ -51,8 +52,10 @@ const Ai = () => {
               }}
               onEnd={handleVideoEnd}
             />
-            <Button variant="primary" onClick={handlePrevClick}>Anterior</Button>
-            <Button variant="primary" onClick={handleNextClick}>Siguiente</Button>
+            <div className="d-flex justify-content-between mt-3">
+              <Button variant="outline-primary" onClick={handlePrevClick}>Anterior</Button>
+              <Button variant="outline-primary" onClick={handleNextClick}>Siguiente</Button>
+            </div>
           </div>
         </Col>
       </Row>
