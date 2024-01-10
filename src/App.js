@@ -4,7 +4,7 @@ import NavigationBar from './NavigationBar';
 // import Inicio from './Inicio';
 import Classic from './Classic';
 import Djent from './components/Djent';
-import Live from './Live';
+import Live from './components/Live';
 import Random from './components/Random';
 import YoutubeApi from './YoutubeApi'
 import Jazz from './components/Jazz';
