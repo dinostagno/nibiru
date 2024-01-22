@@ -2,16 +2,17 @@ import React, { useRef, useState } from 'react';
 import YouTube from 'react-youtube';
 import { Container, Row, Col, Button } from 'react-bootstrap';
 
-const FavoriteMetal = () => {
+const FavoriteSingers = () => {
   const [currentVideoIndex, setCurrentVideoIndex] = useState(0);
   const playerRef = useRef(null);
 
   const videos = [
-    '1kcvj1BW9p8', 
-    'k3vfWnvetQU', 
-    'aHolTqDXipc', 
-    'oupD5I_CG-s', 
-    'GcdFH6pAUPs', 
+    'myzG8i_B2Qc', 
+    'HKLnmMacEB4', 
+    '-J7J_IWUhls', 
+    'Jnq9wPDoDKg',
+    'KIrztjvqbkg', 
+    'HVHUjzZZGQ4', 
   ];
 
   const handleVideoEnd = () => {
@@ -63,4 +64,4 @@ const FavoriteMetal = () => {
   );
 };
 
-export default FavoriteMetal;
+export default FavoriteSingers;
