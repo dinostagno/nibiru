@@ -17,6 +17,7 @@ import TopBanner from './components/TopBanner';
 import BottomBanner from './components/BottomBanner';
 import Footer from './components/Footer';
 import FavoriteSingers from './components/FavoriteSingers';
+import Guthrie from './components/Guthrie';
 
 class App extends React.Component {
   render() {
@@ -40,6 +41,7 @@ class App extends React.Component {
               <Route path="/nibiru/CodeBlock" element={<CodeBlock />} />
               <Route path="/nibiru/Ai" element={<Ai />} />
               <Route path="/nibiru/FavoriteSingers" element={<FavoriteSingers />} />
+              <Route path="/nibiru/Guthrie" element={<Guthrie />} />
             </Routes>
             <Footer />
         </div>

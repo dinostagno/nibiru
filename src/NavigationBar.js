@@ -40,6 +40,9 @@ class NavigationBar extends React.Component {
             <Nav.Link as={Link} to="/nibiru/FavoriteMetal">
               Neoclassical Metal
             </Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Guthrie">
+              Guthrie
+            </Nav.Link>
             {/* <Nav.Link as={Link} to="/nibiru/Ai">
               愛
             </Nav.Link> */}
