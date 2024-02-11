@@ -9,11 +9,11 @@ const Guthrie = () => {
   const videos = [
     '4JrQrNK49YE', 
     '_6hz1CNjxjo',
-    'KBmvbfswx50 ',
-    '6S1qwvnaUL8 ',
-    'rV7SzcBnYE8 ',
-    'JMZ1_vp_I7o ',
-    'GVlwqflKUfY ',
+    'KBmvbfswx50',
+    '6S1qwvnaUL8',
+    'rV7SzcBnYE8',
+    'JMZ1_vp_I7o',
+    'GVlwqflKUfY',
   ];
 
   const handleVideoEnd = () => {
