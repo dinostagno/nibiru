@@ -27,6 +27,7 @@ class App extends React.Component {
           <TopBanner />
           <NavigationBar />
           <BottomBanner />
+          <CodeBlock/>
             <Routes>
               {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}
               <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />
