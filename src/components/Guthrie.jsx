@@ -8,6 +8,7 @@ const Guthrie = () => {
 
   const videos = [
     '4JrQrNK49YE', 
+    'W2Jh-entpc8',
     '_6hz1CNjxjo',
     'KBmvbfswx50',
     '6S1qwvnaUL8',
