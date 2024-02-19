@@ -7,7 +7,7 @@ const Guthrie = () => {
   const playerRef = useRef(null);
 
   const videos = [
-    '4JrQrNK49YE', 
+    // '4JrQrNK49YE', 
     'W2Jh-entpc8',
     '_6hz1CNjxjo',
     'KBmvbfswx50',
