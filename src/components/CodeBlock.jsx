@@ -8,8 +8,8 @@ import { Clipboard, Check2 } from 'react-bootstrap-icons';
 const CodeBlock = () => {
   const [isCopied, setIsCopied] = useState(false);
   const value = `
-    SELECT Assignee.Name, PermissionSet.Name 
-    FROM PermissionSetAssignment
+  SELECT Assignee.Name, PermissionSet.Name 
+  FROM PermissionSetAssignment
   `;
 
   const handleCopy = () => {
@@ -19,8 +19,8 @@ const CodeBlock = () => {
 
   return (
     <Card className="m-3">
-      <Card.Header className="d-flex justify-content-between align-items-center">
-        <h6>Fetch Assignee Name and Permission Set Name</h6>
+      <Card.Header className="d-flex justify-content-between align-items-center px-2 border-bottom-0">
+      <h6 className="mr-5">Fetch Assignee Name and Permission Set Name</h6>
         <CopyToClipboard text={value} onCopy={handleCopy}>
           <Button variant={isCopied ? 'success' : 'primary'}>
             {isCopied ? <Check2 /> : <Clipboard />}
