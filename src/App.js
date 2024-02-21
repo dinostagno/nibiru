@@ -27,6 +27,7 @@ class App extends React.Component {
           <TopBanner />
           <NavigationBar />
           <BottomBanner />
+          <YoutubeApi/>
           <CodeBlock/>
             <Routes>
               {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}

@@ -34,7 +34,7 @@ class NavigationBar extends React.Component {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link as={Link} to="/nibiru/YoutubeApi">YoutubeApi</Nav.Link>
+            {/* <Nav.Link as={Link} to="/nibiru/YoutubeApi">YoutubeApi</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Guitarrist">Guitarrist</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/FavoriteSingers">FavoriteSingers</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/FavoriteMetal">

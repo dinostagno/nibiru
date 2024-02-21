@@ -11,7 +11,7 @@ const YoutubeSearch = () => {
       const response = await axios.get('https://www.googleapis.com/youtube/v3/search', {
         params: {
           part: 'snippet',
-          maxResults: 10,
+          maxResults: 1,
           key: 'AIzaSyAAwMUdTMI_P3PL5sCs_rmo-wVvvOtJjl8',
           q: searchTerm
         }
