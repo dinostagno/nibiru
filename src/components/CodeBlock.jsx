@@ -4,6 +4,7 @@ import { atomDark } from 'react-syntax-highlighter/dist/esm/styles/prism';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Button, Card } from 'react-bootstrap';
 import { Clipboard, Check2 } from 'react-bootstrap-icons';
+import { MDBIcon } from 'mdb-react-ui-kit';
 
 const CodeBlock = () => {
   const codeBlocks = [
@@ -184,6 +185,7 @@ global with sharing class CaseManager {
   ];
 
   const [isCopied, setIsCopied] = useState(new Array(codeBlocks.length).fill(false));
+  const [showComponent, setShowComponent] = useState(true);
 
   const handleCopy = (index) => {
     const newIsCopied = new Array(codeBlocks.length).fill(false);
@@ -192,9 +194,16 @@ global with sharing class CaseManager {
     setTimeout(() => setIsCopied(new Array(codeBlocks.length).fill(false)), 2000); 
   };
 
+  const toggleVisibility = () => {
+    setShowComponent(!showComponent);
+  };
+
   return (
     <>
-      {codeBlocks.map((block, index) => (
+      <Button onClick={toggleVisibility}>
+        {showComponent ? <MDBIcon fas icon="angle-double-up" /> : 'Mostrar'} Componente
+      </Button>
+      {showComponent && codeBlocks.map((block, index) => (
         <Card key={index} className="m-3">
           <Card.Header className="d-flex justify-content-between align-items-center px-2 border-bottom-0">
             <h6 className="mr-5">{block.title}</h6>

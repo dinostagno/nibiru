@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Form, FormControl, Button } from 'react-bootstrap';
+import { List } from 'react-bootstrap-icons';
 
 const YoutubeSearch = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -40,7 +41,7 @@ const YoutubeSearch = () => {
           className="form-control"
         />
         <Button type="submit" style={{ fontSize: '10px', marginLeft: '5px' }} className="btn btn-outline-info">
-          Buscar
+          <List color="white" size={24} />
         </Button>
       </Form>
 
