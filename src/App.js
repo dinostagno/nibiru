@@ -18,6 +18,7 @@ import BottomBanner from './components/BottomBanner';
 import Footer from './components/Footer';
 import FavoriteSingers from './components/FavoriteSingers';
 import Guthrie from './components/Guthrie';
+import Sidebar from './components/Sidebar';
 
 class App extends React.Component {
   render() {
@@ -25,8 +26,9 @@ class App extends React.Component {
       <Router>
         <div>
           <TopBanner />
-          <NavigationBar />
+          {/* <NavigationBar /> */}
           <BottomBanner />
+          <Sidebar />
           <YoutubeApi/>
           <CodeBlock/>
             <Routes>
