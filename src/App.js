@@ -28,7 +28,7 @@ class App extends React.Component {
           <TopBanner />
           {/* <NavigationBar /> */}
           <BottomBanner />
-          <Sidebar />
+          {/* <Sidebar /> */}
           <YoutubeApi/>
           <CodeBlock/>
             <Routes>

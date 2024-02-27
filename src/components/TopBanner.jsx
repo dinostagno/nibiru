@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import moment from 'moment';
+import Sidebar from './Sidebar';
 
 const TopBanner = () => {
   const [time, setTime] = useState(moment().format('LTS')); // Formato de 12 horas (p. ej., 11:59:59 PM)
@@ -29,6 +30,9 @@ const TopBanner = () => {
     <div style={bannerStyle}>
       <Container>
         <Row>
+          <Col xs="auto">
+            <Sidebar />
+          </Col>
           <Col className="text-center">
             {/* <p className="mb-0">{`${time} - ${city}`}</p> */}
             <p className="mb-0">{`${time} - ${city}`}</p>
