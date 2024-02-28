@@ -5,6 +5,8 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { Button, Card } from 'react-bootstrap';
 import { Clipboard, Check2 } from 'react-bootstrap-icons';
 import { MDBIcon } from 'mdb-react-ui-kit';
+import { FcBinoculars, FcCommandLine } from "react-icons/fc";
+
 
 const CodeBlock = () => {
   const codeBlocks = [
@@ -200,8 +202,8 @@ global with sharing class CaseManager {
 
   return (
     <>
-      <Button onClick={toggleVisibility}>
-        {showComponent ? <MDBIcon fas icon="angle-double-up" /> : 'Mostrar'} Componente
+      <Button onClick={toggleVisibility} variant="light" className="m-3">
+        {showComponent ? <FcCommandLine style={{ fontSize: "40px" }} /> : <FcBinoculars style={{ fontSize: "40px" }} />}
       </Button>
       {showComponent && codeBlocks.map((block, index) => (
         <Card key={index} className="m-3">

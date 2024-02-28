@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Button, Nav, Offcanvas } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { List } from 'react-bootstrap-icons'; // Importa el icono que desees
+import { FcBiohazard } from "react-icons/fc";
 
 const Sidebar = () => {
   const [show, setShow] = useState(false);
@@ -12,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
-        <List color="white" size={24} /> {/* Usa el icono que desees */}
+        <FcBiohazard size={24} /> 
       </Button>
 
       <Offcanvas show={show} onHide={handleClose} style={{transition: '0.5s ease-out'}}>
