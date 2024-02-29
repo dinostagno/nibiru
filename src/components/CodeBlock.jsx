@@ -202,7 +202,7 @@ global with sharing class CaseManager {
 
   return (
     <>
-      <Button onClick={toggleVisibility} variant="light" className="m-3">
+      <Button onClick={toggleVisibility} variant="light" className="mx-3">
         {showComponent ? <FcCommandLine style={{ fontSize: "40px" }} /> : <FcBinoculars style={{ fontSize: "40px" }} />}
       </Button>
       {showComponent && codeBlocks.map((block, index) => (

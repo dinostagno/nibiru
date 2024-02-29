@@ -12,7 +12,7 @@ const Sidebar = () => {
 
   return (
     <>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="light" onClick={handleShow}>
         <FcBiohazard size={24} /> 
       </Button>
 
