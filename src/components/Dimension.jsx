@@ -8,14 +8,9 @@ const Dimension = () => {
   const playerRef = useRef(null);
 
   const videos = [
-    '4JrQrNK49YE', 
-    'W2Jh-entpc8',
-    '_6hz1CNjxjo',
-    'KBmvbfswx50',
-    '6S1qwvnaUL8',
-    'rV7SzcBnYE8',
-    'JMZ1_vp_I7o',
-    'GVlwqflKUfY',
+    'uXJRZHZwb1c', 
+    'qLQcmOfcwUM',
+    '8XDMy7m8w7w',
   ];
 
   const handleVideoEnd = () => {
