@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/nibiru/static/css/main.04d25644.css",
+    "main.css": "/nibiru/static/css/main.7132dd1d.css",
     "main.js": "/nibiru/static/js/main.2dec8bed.js",
     "static/js/787.befd6b3c.chunk.js": "/nibiru/static/js/787.befd6b3c.chunk.js",
+    "static/media/fa-solid-900.svg": "/nibiru/static/media/fa-solid-900.7a8b4f130182d19a2d7c.svg",
+    "static/media/fa-brands-400.svg": "/nibiru/static/media/fa-brands-400.2f517e09eb2ca6650ff5.svg",
+    "static/media/fa-solid-900.eot": "/nibiru/static/media/fa-solid-900.9bbb245e67a133f6e486.eot",
+    "static/media/fa-solid-900.ttf": "/nibiru/static/media/fa-solid-900.be9ee23c0c6390141475.ttf",
+    "static/media/fa-regular-400.svg": "/nibiru/static/media/fa-regular-400.4689f52cc96215721344.svg",
+    "static/media/fa-brands-400.eot": "/nibiru/static/media/fa-brands-400.23f19bb08961f37aaf69.eot",
+    "static/media/fa-brands-400.ttf": "/nibiru/static/media/fa-brands-400.527940b104eb2ea366c8.ttf",
+    "static/media/fa-solid-900.woff": "/nibiru/static/media/fa-solid-900.eeccf4f66002c6f2ba24.woff",
     "static/media/7000cc86-7b2e-4722-a5a8-d48e050f5442.svg": "/nibiru/static/media/7000cc86-7b2e-4722-a5a8-d48e050f5442.cfdf0c3686753a5c4818a68ba179b985.svg",
+    "static/media/fa-brands-400.woff": "/nibiru/static/media/fa-brands-400.2285773e6b4b172f07d9.woff",
+    "static/media/fa-solid-900.woff2": "/nibiru/static/media/fa-solid-900.1551f4f60c37af51121f.woff2",
+    "static/media/fa-brands-400.woff2": "/nibiru/static/media/fa-brands-400.d878b0a6a1144760244f.woff2",
+    "static/media/fa-regular-400.eot": "/nibiru/static/media/fa-regular-400.77206a6bb316fa0aded5.eot",
+    "static/media/fa-regular-400.ttf": "/nibiru/static/media/fa-regular-400.491974d108fe4002b2aa.ttf",
+    "static/media/fa-regular-400.woff": "/nibiru/static/media/fa-regular-400.bb58e57c48a3e911f15f.woff",
+    "static/media/fa-regular-400.woff2": "/nibiru/static/media/fa-regular-400.7a3337626410ca2f4071.woff2",
     "index.html": "/nibiru/index.html",
-    "main.04d25644.css.map": "/nibiru/static/css/main.04d25644.css.map",
+    "static/media/arrow_left.svg": "/nibiru/static/media/arrow_left.db6e2d88c7c35a775ce4.svg",
+    "static/media/arrow_right.svg": "/nibiru/static/media/arrow_right.f7c6ac6d310d3b82f0a0.svg",
+    "main.7132dd1d.css.map": "/nibiru/static/css/main.7132dd1d.css.map",
     "main.2dec8bed.js.map": "/nibiru/static/js/main.2dec8bed.js.map",
     "787.befd6b3c.chunk.js.map": "/nibiru/static/js/787.befd6b3c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.04d25644.css",
+    "static/css/main.7132dd1d.css",
     "static/js/main.2dec8bed.js"
   ]
 }
