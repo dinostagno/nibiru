@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -11,9 +11,9 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -26,22 +26,22 @@
 
 .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
 
 /* Estilos para móvil */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* Establece el aspect ratio del contenedor */
+    padding-bottom: 56.25%; 
     padding-top: 30px;
     height: 0;
     overflow: hidden;
@@ -56,13 +56,13 @@
     width: 100%;
     height: 100%;
   }
-}
+} */
 
-/* Estilos para escritorio */
-@media (min-width: 768px) {
+
+/* @media (min-width: 768px) {
   .video-container {
-    max-width: 500px; /* Ajusta el tamaño máximo del vídeo en escritorio */
-    margin: 0 auto; /* Centra el vídeo en el contenedor */
+    max-width: 500px; 
+    margin: 0 auto; 
   }
-}
+} */
 

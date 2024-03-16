@@ -1,5 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 import NavigationBar from './NavigationBar';
 // import Inicio from './Inicio';
 import Classic from './Classic';
@@ -18,7 +21,7 @@ import BottomBanner from './components/BottomBanner';
 import Footer from './components/Footer';
 import FavoriteSingers from './components/FavoriteSingers';
 import Guthrie from './components/Guthrie';
-import Sidebar from './components/Sidebar';
+import Dimension from './components/Dimension';
 
 class App extends React.Component {
   render() {
@@ -46,6 +49,7 @@ class App extends React.Component {
               <Route path="/nibiru/Ai" element={<Ai />} />
               <Route path="/nibiru/FavoriteSingers" element={<FavoriteSingers />} />
               <Route path="/nibiru/Guthrie" element={<Guthrie />} />
+              <Route path="/nibiru/Dimension" element={<Dimension />} />
             </Routes>
             <Footer />
         </div>
