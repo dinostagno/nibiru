@@ -10,6 +10,7 @@ const Dimension = () => {
   const videos = [
     'uXJRZHZwb1c', 
     'qLQcmOfcwUM',
+    'atNdnc90vy0',
     '8XDMy7m8w7w',
   ];
 
@@ -31,7 +32,7 @@ const Dimension = () => {
   };
 
   return (
-    <MDBContainer fluid className="px-3">
+    <MDBContainer fluid className="p-3">
       <div className="embed-responsive embed-responsive-16by9">
         <YouTube
           videoId={videos[currentVideoIndex]}
