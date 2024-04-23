@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const BottomBanner = () => {
   const bannerStyle = {
-    background: `rgb(230, 230, 250)`,
+    background: `rgb(127, 255, 212)`,
     backdropFilter: 'blur(5px)', // Esto añade el efecto de desenfoque de fondo
     padding: '10px 0',
     marginBottom: '20px',

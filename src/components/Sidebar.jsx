@@ -13,7 +13,7 @@ const Sidebar = () => {
   return (
     <>
       <Button variant="light" onClick={handleShow}>
-        <FcLinux size={24} /> 
+        <FcLinux size={24} style={{ fontSize: "40px" }} /> 
       </Button>
 
       <Offcanvas show={show} onHide={handleClose} style={{transition: '0.5s ease-out'}}>
@@ -21,7 +21,7 @@ const Sidebar = () => {
           <Offcanvas.Title>Sidebar</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body style={{
-          background: 'rgb(230, 230, 250)',
+          background: 'rgb(240, 255, 255)',
           backdropFilter: 'blur(10px)',
         }}>
           <Nav className="flex-column">
