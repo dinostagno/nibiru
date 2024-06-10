@@ -22,7 +22,7 @@ const TopBanner = () => {
   }, []);
 
   const bannerStyle = {
-    background: 'rgb(248, 248, 255)', // Fondo verde claro con 80% de opacidad
+    background: 'rgb(175, 238, 238)', // Fondo verde claro con 80% de opacidad
     padding: '10px 0',
   };
 
