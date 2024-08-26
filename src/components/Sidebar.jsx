@@ -25,7 +25,7 @@ const Sidebar = () => {
           backdropFilter: 'blur(10px)',
         }}>
           <Nav className="flex-column">
-            <Nav.Link as={Link} to="/nibiru/CodeComparator">CodeComparator</Nav.Link>
+            {/* <Nav.Link as={Link} to="/nibiru/CodeComparator">CodeComparator</Nav.Link> */}
             <Nav.Link as={Link} to="/nibiru/Guitarrist">Guitarrist</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/Dimension">Dimension</Nav.Link>
             <Nav.Link as={Link} to="/nibiru/FavoriteSingers">FavoriteSingers</Nav.Link>
