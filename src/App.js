@@ -22,6 +22,7 @@ import Footer from './components/Footer';
 import FavoriteSingers from './components/FavoriteSingers';
 import Guthrie from './components/Guthrie';
 import Dimension from './components/Dimension';
+import CodeComparator from './components/CodeComparator';
 
 class App extends React.Component {
   render() {
@@ -36,6 +37,7 @@ class App extends React.Component {
           <CodeBlock/>
             <Routes>
               {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}
+              <Route path="/nibiru/CodeComparator" element={<CodeComparator />} />
               <Route path="/nibiru/Guitarrist" element={<Guitarrist />} />
               <Route path="/nibiru/Classic" element={<Classic />} />
               <Route path="/nibiru/Djent" element={<Djent />} />
