@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import DiffViewer from 'react-diff-viewer';
+import { Diff } from 'react-diff-view';
 
 const CodeComparator = () => {
   const [codeA, setCodeA] = useState('');
@@ -25,7 +25,12 @@ const CodeComparator = () => {
           onChange={handleCodeBChange}
         />
       </div>
-      <DiffViewer oldValue={codeA} newValue={codeB} splitView={true} />
+      <Diff
+        oldValue={codeA}
+        newValue={codeB}
+        splitView={true}
+        renderers={{}}
+      />
     </div>
   );
 };
