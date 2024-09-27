@@ -55,12 +55,18 @@ const Dimension = () => {
         />
       </div>
       <div className="d-flex justify-content-between mt-3">
-        <Button variant="outline-primary" onClick={handlePrevClick}>
+        <Button variant="light" className="mx-3" onClick={handlePrevClick}>
+          <FaChevronLeft style={{ fontSize: "40px" }} />
+        </Button>
+        <Button variant="light" className="mx-3" onClick={handleNextClick}>
+          <FaChevronRight style={{ fontSize: "40px" }} /> 
+        </Button>
+        {/* <Button variant="outline-primary" onClick={handlePrevClick}>
           <FaChevronLeft /> 
         </Button>
         <Button variant="outline-primary" onClick={handleNextClick}>
           <FaChevronRight /> 
-        </Button>
+        </Button> */}
       </div>
     </MDBContainer>
   );
