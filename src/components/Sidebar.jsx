@@ -29,17 +29,17 @@ const Sidebar = () => {
           backdropFilter: 'blur(10px)', // Desenfoque para efecto de vidrio
         }}>
           <Nav className="flex-column">
-            <Nav.Link as={Link} to="/nibiru/CodeComparator" style={{ color: '#FFD700' }}>CodeComparator</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Guitarrist" style={{ color: '#FFD700' }}>Guitarrist</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Dimension" style={{ color: '#FFD700' }}>Dimension</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/FavoriteSingers" style={{ color: '#FFD700' }}>FavoriteSingers</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/FavoriteMetal" style={{ color: '#FFD700' }}>Neoclassical Metal</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Guthrie" style={{ color: '#FFD700' }}>Guthrie</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Djent" style={{ color: '#FFD700' }}>Djent</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Random" style={{ color: '#FFD700' }}>Random</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Jazz" style={{ color: '#FFD700' }}>Jazz</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/PinkFloyd" style={{ color: '#FFD700' }}>PinkFloyd</Nav.Link>
-            <Nav.Link as={Link} to="/nibiru/Live" style={{ color: '#FFD700' }}>Live</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/CodeComparator" style={{ color: '#FFFFFF' }}>CodeComparator</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Guitarrist" style={{ color: '#FFFFFF' }}>Guitarrist</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Dimension" style={{ color: '#FFFFFF' }}>Dimension</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/FavoriteSingers" style={{ color: '#FFFFFF' }}>FavoriteSingers</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/FavoriteMetal" style={{ color: '#FFFFFF' }}>Neoclassical Metal</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Guthrie" style={{ color: '#FFFFFF' }}>Guthrie</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Djent" style={{ color: '#FFFFFF' }}>Djent</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Random" style={{ color: '#FFFFFF' }}>Random</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Jazz" style={{ color: '#FFFFFF' }}>Jazz</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/PinkFloyd" style={{ color: '#FFFFFF' }}>PinkFloyd</Nav.Link>
+            <Nav.Link as={Link} to="/nibiru/Live" style={{ color: '#FFFFFF' }}>Live</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>

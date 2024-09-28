@@ -22,7 +22,7 @@ const TopBanner = () => {
   }, []);
 
   const bannerStyle = {
-    background: 'rgb(175, 238, 238)', // Fondo verde claro con 80% de opacidad
+    background: 'rgb(10, 56, 113)', // Fondo verde claro con 80% de opacidad
     padding: '10px 0',
   };
 
@@ -35,7 +35,7 @@ const TopBanner = () => {
           </Col>
           <Col className="text-center">
             {/* <p className="mb-0">{`${time} - ${city}`}</p> */}
-            <p className="mb-0">{`${time} - ${city}`}</p>
+            <p className="mb-0" style={{ color: 'rgb(188, 0, 45)' }}>{`${time} - ${city}`}</p>
           </Col>
         </Row>
       </Container>

@@ -9,7 +9,7 @@ import Classic from './Classic';
 import Djent from './components/Djent';
 import Live from './components/Live';
 import Random from './components/Random';
-import YoutubeApi from './YoutubeApi'
+// import YoutubeApi from './YoutubeApi'
 import Jazz from './components/Jazz';
 import PinkFloyd from './components/PinkFloyd';
 import FavoriteMetal from './components/FavoriteMetal';
@@ -33,7 +33,7 @@ class App extends React.Component {
           {/* <NavigationBar /> */}
           <BottomBanner />
           {/* <Sidebar /> */}
-          <YoutubeApi/>
+          {/* <YoutubeApi/> */}
           <CodeBlock/>
             <Routes>
               {/* <Route path="/nibiru/Inicio" element={<Inicio />} /> */}
@@ -43,7 +43,7 @@ class App extends React.Component {
               <Route path="/nibiru/Djent" element={<Djent />} />
               <Route path="/nibiru/Live" element={<Live />} />
               <Route path="/nibiru/Random" element={<Random />} />
-              <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} />
+              {/* <Route path="/nibiru/YoutubeApi" element={<YoutubeApi />} /> */}
               <Route path="/nibiru/Jazz" element={<Jazz />} />
               <Route path="/nibiru/PinkFloyd" element={<PinkFloyd />} />
               <Route path="/nibiru/FavoriteMetal" element={<FavoriteMetal />} />
