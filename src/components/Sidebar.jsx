@@ -21,7 +21,10 @@ const Sidebar = () => {
         transition: '0.5s ease-out',
         width: '300px' 
       }}>
-        <Offcanvas.Header className="justify-content-end">
+        <Offcanvas.Header 
+         className="justify-content-end"
+         style={{ backgroundColor: 'red !important' }}
+        >
           <button type="button" className="btn btn-close p-2 border-0 shadow-none" aria-label="Close" onClick={handleClose}></button>
         </Offcanvas.Header>
         <Offcanvas.Body style={{
